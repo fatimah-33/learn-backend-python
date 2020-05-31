@@ -7,6 +7,6 @@ db = SQLAlchemy(app)
 @app.route('/')
 def index():
     return render_template('index.html',data[{
-        'a:1' },{
-        'b:2'},{
-        'c:3'}])
+        'items:1' },{
+        'items:2'},{
+        'items:3'}])
